@@ -64,21 +64,24 @@ nav a {
 	font-size: 1.5rem;
 	font-weight: bold;
 	color: #6C63FF;
+	font-family: Aeroport,sans-serif;
 }
 
 nav a:hover {
 	color: #4d604c;
 }
 
+/*
 @media (max-width: 550px) {
 	nav a {
 		font-size: 1rem;
 	}
 }
+*/
 
 /* Главный экран */
-.hero {
-	background: url('hero-bg.jpg') no-repeat center/cover;
+section.hero {
+	background: url('hero-bg.jpg') no-repeat center/cover !important;
 	height: 50vh;
 	display: flex;
 	flex-direction: column;
@@ -87,6 +90,7 @@ nav a:hover {
 	text-align: center;
 	color: #4d604c;
 	padding: 20px;
+	text-shadow: #29f9bd8f 1px 0 10px;
 }
 
 .hero h1 {
@@ -97,6 +101,7 @@ nav a:hover {
 .hero p {
 	font-size: 1.5rem;
 	margin-bottom: 30px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 .hero a {
@@ -135,6 +140,7 @@ section:nth-child(even) {
 section h2 {
 	text-align: center;
 	margin-bottom: 30px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 /* Блок услуг */
@@ -155,6 +161,7 @@ section h2 {
 	color: #fff;
 	box-shadow: 10px 5px 5px #4d604c;
 	text-shadow: #29f9bd8f 1px 0 10px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 .services li:hover {
